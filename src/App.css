@@ -336,6 +336,43 @@ header a {
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
+.section-5{
+  margin-left: 2.5%;
+  background-color: white;
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 10px;
+  width: 90%;
+  margin-left: 2.5%;
+  display: grid;
+  grid-template-rows: 0.3fr 0.3fr 1.5   npm fr 0.3fr 0.3fr 0.3fr 2fr 0.3fr;
+}
+.section-5 .img{
+  height: 700px;
+  width: 100%;
+}
+.section-5 h1 {
+  font-size: 3.2em;
+  margin: 50px 0px 0px 70px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.section-5 h3 {
+  font-size: 2.2em;
+  margin: 50px 0px 0px 70px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.section-5 p {
+  font-size: 1.2em;
+  margin: 30px 0px 0px 70px;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+}
+.section-5 .img1{
+  height: 1000px;
+  width: 100%;
+}
 @keyframes fadeInUp {
   to {
     opacity: 1;
